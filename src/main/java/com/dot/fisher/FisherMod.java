@@ -40,7 +40,6 @@ public class FisherMod
                         nextTime = -1L;
 
                         // right click
-                        // KeyMapping.onTick(mc.gameSettings.keyBindUseItem.getKey());
                         KeyMapping.click(mc.options.keyUse.getKey());
                     }
                 }
@@ -57,7 +56,6 @@ public class FisherMod
             // sound name
             if ( !p.getMainHandItem().isEmpty() && (p.getMainHandItem().getItem() == Items.FISHING_ROD) && event.getName().equals("entity.fishing_bobber.splash") ) {
                 // right click
-                // KeyMapping.onTick(mc.gameSettings.keyBindUseItem.getKey());
                 KeyMapping.click(mc.options.keyUse.getKey());
 
                 // timer set after 1 sec
